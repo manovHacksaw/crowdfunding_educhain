@@ -6,6 +6,9 @@ const Layout = ({ children }) => {
   return (
     <StateContextProvider>
       <html lang="en">
+        <head>
+          <title> Crowdfunding - Web3</title>
+        </head>
         {" "}
         {/* Add the <html> tag */}
         <body className="relative sm:-8 p-4 bg-[#13131a] min-h-screen flex flex-row">
