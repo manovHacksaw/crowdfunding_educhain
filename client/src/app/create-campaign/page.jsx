@@ -90,7 +90,7 @@ const Page = () => {
         <div className="flex flex-wrap gap-[40px]">
           <FormField
             labelName="Goal"
-            placeholder="EDU 0.05"
+            placeholder="AIA 500"
             inputType="text"
             value={form.target}
             handleChange={(e) => handleFormFieldChange("target", e)}

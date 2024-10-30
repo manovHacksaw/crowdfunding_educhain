@@ -17,7 +17,7 @@ async function main() {
   );
 
   const balance = await provider.getBalance(await signer.getAddress());
-  console.log("Account balance:", balance.toString(), "EDU");
+  console.log("Account balance:", balance.toString(), "AIA");
 
   // Get the contract factory and deploy the contract
   const Crowdfunding = await hre.ethers.getContractFactory(
